@@ -1,4 +1,4 @@
-// the variable values can be accessed from other variable.js file
+// The variable values can be accessed from other variable.js file
 // because we import into index.html
 
 // Comments can make code readable
