@@ -1,7 +1,7 @@
-console.log("type of subjectName", typeof subjectName);
-console.log("type of isClassCancel", typeof isClassCancel);
-console.log("type of classTime", typeof classTime);
-console.log("type of student", typeof student);
+console.log("type of subjectName", typeof subjectName); // string
+console.log("type of isClassCancel", typeof isClassCancel); // boolean
+console.log("type of classTime", typeof classTime); // undefined
+console.log("type of student", typeof student); // object
 
 let myFirstName = "Supakrit";
 let myLastName = "Chuchatwannakul";
