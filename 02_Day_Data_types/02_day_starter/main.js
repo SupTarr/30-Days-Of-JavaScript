@@ -29,7 +29,7 @@ console.log(
   "Exercise 1.8 - Check 'Script' inside Challenge: ",
   challenge.includes("Script")
 );
-console.log("Exercise 1.9 - Split string into array : ", challenge.split());
+console.log("Exercise 1.9 - Split string into array: ", challenge.split());
 // ['30 Days Of JavaScript']
 console.log(
   "Exercise 1.10 - Split string into array at space: ",
