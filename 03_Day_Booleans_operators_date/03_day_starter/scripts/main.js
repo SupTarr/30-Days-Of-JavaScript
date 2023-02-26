@@ -81,147 +81,147 @@ console.log(
 
 // Exercises: Level 2
 
-// let base = prompt("Enter base: ");
-// let height = prompt("Enter height: ");
-// let area = 0.5 * base * height;
-// console.log(
-//   "Exercise 2.1 - Prompt the user to enter base and height: ",
-//   "The area of the triangle is ",
-//   area
-// );
+let base = prompt("Enter base: ");
+let height = prompt("Enter height: ");
+let area = 0.5 * base * height;
+console.log(
+  "Exercise 2.1 - Prompt the user to enter base and height: ",
+  "The area of the triangle is ",
+  area
+);
 
-// let sideA = parseInt(prompt("Enter side a: "));
-// let sideB = parseInt(prompt("Enter side b: "));
-// let sideC = parseInt(prompt("Enter side c: "));
-// let perimeter = sideA + sideB + sideC;
-// console.log(
-//   "Exercise 2.2 - Prompt the user to enter side a, side b, and side c: ",
-//   "The perimeter of the triangle is ",
-//   perimeter
-// );
+let sideA = parseInt(prompt("Enter side a: "));
+let sideB = parseInt(prompt("Enter side b: "));
+let sideC = parseInt(prompt("Enter side c: "));
+let perimeter = sideA + sideB + sideC;
+console.log(
+  "Exercise 2.2 - Prompt the user to enter side a, side b, and side c: ",
+  "The perimeter of the triangle is ",
+  perimeter
+);
 
-// let length = parseInt(prompt("Enter length: "));
-// let width = parseInt(prompt("Enter width: "));
-// let recArea = length * width;
-// let recPerimeter = 2 * (length + width);
-// console.log(
-//   "Exercise 2.3 - Prompt to calculate area and perimeter of rectangle: ",
-//   "\nThe area of the rectangle is ",
-//   recArea,
-//   "\nThe perimeter of the rectangle is ",
-//   recPerimeter
-// );
+let length = parseInt(prompt("Enter length: "));
+let width = parseInt(prompt("Enter width: "));
+let recArea = length * width;
+let recPerimeter = 2 * (length + width);
+console.log(
+  "Exercise 2.3 - Prompt to calculate area and perimeter of rectangle: ",
+  "\nThe area of the rectangle is ",
+  recArea,
+  "\nThe perimeter of the rectangle is ",
+  recPerimeter
+);
 
-// let radius = parseInt(prompt("Enter radius: "));
-// let circleArea = Math.PI * radius * radius;
-// let circleCircum = 2 * Math.PI * radius;
-// console.log(
-//   "Exercise 2.4 - Prompt to calculate area and circumference of circle: ",
-//   "\nThe area of the circle is ",
-//   circleArea.toFixed(2),
-//   "\nThe circumference of the circle is ",
-//   circleCircum.toFixed(2)
-// );
+let radius = parseInt(prompt("Enter radius: "));
+let circleArea = Math.PI * radius * radius;
+let circleCircum = 2 * Math.PI * radius;
+console.log(
+  "Exercise 2.4 - Prompt to calculate area and circumference of circle: ",
+  "\nThe area of the circle is ",
+  circleArea.toFixed(2),
+  "\nThe circumference of the circle is ",
+  circleCircum.toFixed(2)
+);
 
 // ax + by + c = 0
-// let a = parseInt(prompt("Enter a: "));
-// let b = parseInt(prompt("Enter b: "));
-// let c = parseInt(prompt("Enter c: "));
-// let slope = -(a / b);
-// let xIntercept = -(c / a);
-// let yIntercept = -(c / b);
-// console.log(
-//   "Exercise 2.5 - Calculate the slope, x-intercept and y-intercept of 'y = 2x - 2': ",
-//   "\nSlope is ",
-//   slope,
-//   "\nX-intercept is ",
-//   xIntercept,
-//   "\nY-intercept is ",
-//   yIntercept
-// );
+let a = parseInt(prompt("Enter a: "));
+let b = parseInt(prompt("Enter b: "));
+let c = parseInt(prompt("Enter c: "));
+let slope = -(a / b);
+let xIntercept = -(c / a);
+let yIntercept = -(c / b);
+console.log(
+  "Exercise 2.5 - Calculate the slope, x-intercept and y-intercept of 'y = 2x - 2': ",
+  "\nSlope is ",
+  slope,
+  "\nX-intercept is ",
+  xIntercept,
+  "\nY-intercept is ",
+  yIntercept
+);
 
-// let x1 = parseInt(prompt("Enter x1: "));
-// let x2 = parseInt(prompt("Enter x2: "));
-// let y1 = parseInt(prompt("Enter y1: "));
-// let y2 = parseInt(prompt("Enter y2: "));
-// let slopeBtwPoint = (y2 - y1) / (x2 - x1);
-// console.log(
-//   "Exercise 2.6 - Find the slope between point(2, 2) and point(6, 10): ",
-//   "\nSlope is ",
-//   slopeBtwPoint
-// );
+let x1 = parseInt(prompt("Enter x1: "));
+let x2 = parseInt(prompt("Enter x2: "));
+let y1 = parseInt(prompt("Enter y1: "));
+let y2 = parseInt(prompt("Enter y2: "));
+let slopeBtwPoint = (y2 - y1) / (x2 - x1);
+console.log(
+  "Exercise 2.6 - Find the slope between point(2, 2) and point(6, 10): ",
+  "\nSlope is ",
+  slopeBtwPoint
+);
 
-// console.log(
-//   "Exercise 2.7 - Compare the slope of above two questions: ",
-//   slope == slopeBtwPoint
-// );
+console.log(
+  "Exercise 2.7 - Compare the slope of above two questions: ",
+  slope == slopeBtwPoint
+);
 
-// let x = parseInt(prompt("Enter x: "));
-// let y = x ** 2 + 6 * x + 9;
-// console.log(
-//   "Exercise 2.8 - Calculate the value of y (y = x^2 + 6x + 9): ",
-//   "\nY is ",
-//   y,
-//   "\nY is equal to 0 when x is equal to ",
-//   -3
-// );
+let x = parseInt(prompt("Enter x: "));
+let y = x ** 2 + 6 * x + 9;
+console.log(
+  "Exercise 2.8 - Calculate the value of y (y = x^2 + 6x + 9): ",
+  "\nY is ",
+  y,
+  "\nY is equal to 0 when x is equal to ",
+  -3
+);
 
-// let hours = parseInt(prompt("Enter hours: "));
-// let rate = parseInt(prompt("Enter rate per hour: "));
-// let earn = hours * rate;
-// console.log(
-//   "Exercise 2.9 - Calculate pay of the person: ",
-//   "\nYour weekly earning is ",
-//   earn
-// );
+let hours = parseInt(prompt("Enter hours: "));
+let rate = parseInt(prompt("Enter rate per hour: "));
+let earn = hours * rate;
+console.log(
+  "Exercise 2.9 - Calculate pay of the person: ",
+  "\nYour weekly earning is ",
+  earn
+);
 
-// let myName = prompt("Enter name: ");
-// if (myName.length > 7) {
-//   console.log("Exercise 2.10 - Your name is long");
-// } else {
-//   console.log("Exercise 2.10 - Your name is short");
-// }
+let myName = prompt("Enter name: ");
+if (myName.length > 7) {
+  console.log("Exercise 2.10 - Your name is long");
+} else {
+  console.log("Exercise 2.10 - Your name is short");
+}
 
-// let myFamilyName = prompt("Enter my family name: ");
-// if (myName.length > myFamilyName.length) {
-//   console.log(
-//     `Exercise 2.11 - Your first name, ${myName} is longer than your family name, ${myFamilyName}`
-//   );
-// } else {
-//   console.log(
-//     `Exercise 2.11 - Your first name, ${myName} is shorter than your family name, ${myFamilyName}`
-//   );
-// }
+let myFamilyName = prompt("Enter my family name: ");
+if (myName.length > myFamilyName.length) {
+  console.log(
+    `Exercise 2.11 - Your first name, ${myName} is longer than your family name, ${myFamilyName}`
+  );
+} else {
+  console.log(
+    `Exercise 2.11 - Your first name, ${myName} is shorter than your family name, ${myFamilyName}`
+  );
+}
 
-// let myAge = 250;
-// let yourAge = 25;
-// if (myAge > yourAge) {
-//   console.log(`Exercise 2.12 - I am ${myAge} years older than you.`);
-// } else {
-//   console.log(`Exercise 2.12 - I am ${myAge} years younger than you.`);
-// }
+let myAge = 250;
+let yourAge = 25;
+if (myAge > yourAge) {
+  console.log(`Exercise 2.12 - I am ${myAge} years older than you.`);
+} else {
+  console.log(`Exercise 2.12 - I am ${myAge} years younger than you.`);
+}
 
-// let birthYear = parseInt(prompt("Enter birth year: "));
-// if (now.getFullYear() - birthYear >= 18) {
-//   console.log(
-//     `Exercise 2.13 - You are ${
-//       now.getFullYear() - birthYear
-//     }. You are old enough to drive.`
-//   );
-// } else {
-//   console.log(
-//     `Exercise 2.13 - You are ${
-//       now.getFullYear() - birthYear
-//     }. You will be allowed to drive after ${
-//       18 - (now.getFullYear() - birthYear)
-//     } years.`
-//   );
-// }
+let birthYear = parseInt(prompt("Enter birth year: "));
+if (now.getFullYear() - birthYear >= 18) {
+  console.log(
+    `Exercise 2.13 - You are ${
+      now.getFullYear() - birthYear
+    }. You are old enough to drive.`
+  );
+} else {
+  console.log(
+    `Exercise 2.13 - You are ${
+      now.getFullYear() - birthYear
+    }. You will be allowed to drive after ${
+      18 - (now.getFullYear() - birthYear)
+    } years.`
+  );
+}
 
-// let yearsYouLive = parseInt(prompt("Enter number of years you live: "));
-// console.log(
-//   `Exercise 2.14 - You lived ${yearsYouLive * 365 * 24 * 60 * 60} seconds.`
-// );
+let yearsYouLive = parseInt(prompt("Enter number of years you live: "));
+console.log(
+  `Exercise 2.14 - You lived ${yearsYouLive * 365 * 24 * 60 * 60} seconds.`
+);
 
 let yearNow = now.getFullYear().toString();
 let monthNow = now.getMonth().toString();
