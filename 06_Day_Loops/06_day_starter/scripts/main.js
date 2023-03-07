@@ -82,7 +82,7 @@ console.log("Exercise 1.12: Print sum of evens and sum of odds as array", [
 
 let randomNumber = [];
 for (let i = 0; i <= 5; i++) {
-  randomNumber.push(Math.round(Math.random() * 10));
+  randomNumber.push(Math.floor(Math.random() * 10));
 }
 console.log("Exercise 1.13: Array of 5 random numbers", randomNumber);
 
@@ -90,7 +90,7 @@ let randomUniqueNumber = [];
 for (let i = 0; i <= 5; i++) {
   let randomNumber;
   do {
-    randomNumber = Math.round(Math.random() * 10);
+    randomNumber = Math.floor(Math.random() * 10);
   } while (randomUniqueNumber.includes(randomNumber));
 
   randomUniqueNumber.push(randomNumber);

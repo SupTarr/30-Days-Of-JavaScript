@@ -375,17 +375,19 @@ console.log("Exercise 3.7:", generateColors("hex", 3));
 console.log("Exercise 3.7:", generateColors("rgb", 4));
 
 function shuffleArray(array) {
-  let currentIndex = array.length,
-    randomIndex;
+  let shuffledArr = [];
+  let usedIndexes = [];
+  let randomNumber;
+  for (let i = 0; i < array.length; i++) {
+    do {
+      randomNumber = Math.floor(Math.random() * array.length);
+    } while (usedIndexes.includes(randomNumber));
 
-  while (currentIndex != 0) {
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+    usedIndexes.push(randomNumber);
+    shuffledArr.push(array[randomNumber]);
   }
 
-  return array;
+  return shuffledArr;
 }
 console.log("Exercise 3.8:", shuffleArray(["1", "2", "3", "4"]));
 
@@ -499,7 +501,7 @@ function sevenRandomNumbers() {
   for (let i = 0; i < 7; i++) {
     let randomNumber;
     do {
-      randomNumber = Math.round(Math.random() * 10);
+      randomNumber = Math.floor(Math.random() * 10);
     } while (randomUniqueNumber.includes(randomNumber));
 
     randomUniqueNumber.push(randomNumber);
